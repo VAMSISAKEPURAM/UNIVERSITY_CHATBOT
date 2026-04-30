@@ -29,31 +29,26 @@ Built using **Retrieval-Augmented Generation (RAG)**, this project combines natu
 
 ---
 
-## 📂 Repository Structure
-rag-chatbot/
-│
-├── backend/                # FastAPI backend services
-│   ├── app.py              # Main application entry
-│   ├── config.py           # Configuration settings
-│   ├── pdf_loader.py       # PDF ingestion logic
-│   ├── rag_pipeline.py     # RAG pipeline orchestration
-│   └── init.py
-│
-├── data/pdfs/              # University documents (Admissions, Services, Overview)
-│
-├── frontend/               # Web interface
-│   ├── index.html
-│   ├── login.html
-│   ├── script.js
-│   └── style.css
-│
-├── vectorstore/faiss_index_hf/   # FAISS index files
-│
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
+## 📂 Folder Structure
 
-Code
-
+```text
+📦 rag-chatbot/
+ ┣ 📂 backend/                 # FastAPI backend services
+ ┃ ┣ 📜 app.py                 # Main application entry
+ ┃ ┣ 📜 config.py              # Configuration settings
+ ┃ ┣ 📜 pdf_loader.py          # PDF ingestion logic
+ ┃ ┣ 📜 rag_pipeline.py        # RAG pipeline orchestration
+ ┃ ┗ 📜 __init__.py
+ ┣ 📂 data/pdfs/               # University documents (Admissions, Services, Overview)
+ ┣ 📂 frontend/                # Web interface
+ ┃ ┣ 📜 index.html             # Landing page
+ ┃ ┣ 📜 login.html             # Authentication page
+ ┃ ┣ 📜 script.js              # Client-side logic
+ ┃ ┗ 📜 style.css              # Styling and layout
+ ┣ 📂 vectorstore/faiss_index_hf/  # FAISS index files for semantic search
+ ┣ 📜 requirements.txt         # Python dependencies
+ ┗
+```
 ---
 
 ## ⚙️ Setup Instructions
